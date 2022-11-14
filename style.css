@@ -1,8 +1,48 @@
-@font-face {
-	font-family: 'Source-Code-Pro';
-	src: url('fonts/SourceCodePro-VariableFont_wght.ttf');
+body {
+	background: #EFF1F3;
+	font-family: 'Courier New', monospace;
+	margin: 0px;
+	padding: 0px;
+	margin-top:0;
+}
+
+.header {
+  padding: 1px;
+  text-align: center;
+  background: #183059;
 }
 
 p {
-	font-family: Source-Code-Pro;
+	color: #223843;
+}
+
+h1 {
+	color: #223843;
+}
+
+h2 {
+	color: #FFFFFF;
+}
+
+.parent{
+    padding: 20px;    
+    display: flex;
+}
+
+.child1{
+    padding: 20px;
+    width: 50%;
+    background: #EFF1F3;
+    text-align: center;
+    box-sizing: border-box;
+    min-height: 100vh
+}
+
+.child2{
+    padding: 20px;    
+    width: 50%;
+    background: #EEF1F3;
+    text-align: center;
+    box-sizing: border-box;
+    min-height: 100vh
 }
